@@ -100,7 +100,7 @@ Output: Bounding Boxes + Confidence Scores
 | **Recall** | 76.5% | Ratio of detected potholes |
 | **F1-Score** | 57.1% | Harmonic mean of Precision and Recall |
 
-![Evaluation Metrics](images/evaluation_metrics.png)
+![Evaluation Metrics](visualizations/evaluation_metrics.png)
 
 ### Training Configuration
 
@@ -114,7 +114,7 @@ Output: Bounding Boxes + Confidence Scores
 
 ### Training Progress
 
-![Training History](images/training_history.png)
+![Training History](visualizations/training_history.png)
 
 ---
 
@@ -164,11 +164,11 @@ matplotlib==3.7.1
 - **Format**: COCO JSON format
 - **Split**: 80% Train, 20% Validation
 
-![Dataset Statistics](images/dataset_statistics.png)
+![Dataset Statistics](visualizations/dataset_statistics.png)
 
 ### Sample Training Images
 
-![Sample Images with Annotations](images/sample_images.png)
+![Sample Images with Annotations](visualizations/sample_images.png)
 
 ### Dataset Structure
 
@@ -216,7 +216,7 @@ dataset/
 
 The training pipeline includes various augmentation techniques to improve model robustness:
 
-![Data Augmentation Examples](images/augmentation_examples.png)
+![Data Augmentation Examples](visualizations/augmentation_examples.png)
 
 - **Horizontal Flip**: Random horizontal flipping
 - **Brightness/Contrast**: Adjustments for varying lighting conditions
@@ -224,7 +224,7 @@ The training pipeline includes various augmentation techniques to improve model 
 
 ### DataLoader Visualization
 
-![DataLoader Batch](images/dataloader_batch.png)
+![DataLoader Batch](visualizations/dataloader_batch.png)
 
 ### Prepare Dataset
 
